@@ -92,6 +92,7 @@ body {
     font-size: 16px;
     font-family: poppins;
     font-weight: 400;
+    color: #000000;
 }
 
 .searchicon .row {
@@ -255,8 +256,6 @@ body {
     font-size: 12px;
     font-weight: 500;
     font-family: poppins;
-
-
 }
 
 .counter span {
@@ -1116,9 +1115,7 @@ body {
 
     }
     .counter .row {
-        flex-direction: row; 
-        justify-content: start;
-        gap: 12px;
+        gap: 10px;
     }
     .uspservice {
         gap: 30px;
