@@ -7,7 +7,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -113,7 +113,7 @@ body {
 }
 
 .inputicon img {
-    padding: 5px 10px 0 0 ;
+    padding: 5px 10px 0 0;
 }
 
 /* mainheader ends  */
@@ -162,7 +162,7 @@ body {
 }
 
 .imagearea {
-    width: 496px;
+    max-width: 496px;
 }
 
 .imagearea img {
@@ -661,6 +661,7 @@ body {
 
 .secondhalf {
     padding-right: 30px;
+
 }
 
 .speakers,
@@ -862,29 +863,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:991px) {
 
     .sidebarmenu li:nth-child(1) i,
@@ -992,6 +970,10 @@ body {
         gap: 0;
     }
 
+    .categories .Gadgets {
+        margin: 20px 0;
+    }
+
     .subheading {
         padding-left: 0;
     }
@@ -1029,6 +1011,7 @@ body {
         margin: 20px 0;
     }
 
+
     .blurellipse {
         display: none;
     }
@@ -1039,6 +1022,7 @@ body {
 
     .new-arrivals {
         flex-wrap: wrap;
+        margin: 20px 0;
     }
 
     .firsthalf,
@@ -1054,46 +1038,77 @@ body {
     .playstation img {
         width: 80%;
     }
+    .secondhalf
+    {
 
-    .perfume,
-    .speakers {
-        width: 70%;
+        padding: 0;
+        /* border: 2px solid red; */
     }
 
-    .womancollection img {
+    .womancollection img,
+    .speakers img,
+    .perfume img {
         width: 100%;
     }
 
-    .uspservice {
-        gap: 30px;
-    }
-
-    .footer {
-        text-align: center;
-    }
-
-    .footerrow {
-        gap: 20px;
-        padding: 40px 0;
-        align-items: center;
-
-    }
-
-    .Second {
-        width: 100%;
-    }
-
-    
-
-    .qrrow {
+    .secondmostrow {
         flex-direction: row;
     }
 
-    .socialicons ul {
-        justify-content: center;
+    .secondmostrow h5 {
+        font-size: 16px;
     }
 
-    .footer li {
-        margin-bottom: 10px;
+    .secondmostrow p {
+        font-size: 10px;
+
     }
+
+    .speakercontent,
+    .perfumecontent {
+        /* background-color: pink; */
+        bottom: 14px;
+        left: 4px;
+    }
+
+.speakers,
+.perfume {
+    padding: 30px 10px;
+    width: 100%;
+
+}
+
+.uspservice {
+    gap: 30px;
+    margin: 50px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footerrow {
+    gap: 20px;
+    padding: 40px 0;
+    align-items: center;
+
+}
+
+.Second {
+    width: 100%;
+}
+
+
+
+.qrrow {
+    flex-direction: row;
+}
+
+.socialicons ul {
+    justify-content: center;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
 }
